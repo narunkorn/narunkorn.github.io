@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: itim;
+    src: url(./Itim-Regular.ttf)
+}
+
+body {
+    margin: 0;
+    background-color: #84A98C;
+    font-family: itim;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+         
+}
+
+.aboutMe {
+      display: flex;
+    flex-direction:column;
+    background-color: #086170;
+    width: 40%;
+    border-style: dashed;
+          
+}
+
+.myphoto {
+    height: 90%;
+    width: 90%;   
+    border-radius: 30%;
+    margin: 5%;
+    padding: 1%;
+    border-style: dotted;
+    background-color:antiquewhite;
+    
+}
+
+.head-aboutme{
+    text-align:left;
+}
+.introduceAboutMe {
+
+    padding: 1%;
+    font-size: 120%;
+    margin: 5%;
+    background-color:antiquewhite;
+    border-style: dotted;
+   
+}
+
+.aboutEducationAndExpreince{
+    padding-left: 1% ;
+    padding-right: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+               
+}
+
+.titleEducation{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    border-style: dotted;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.imgEducation1{
+    height: 50px;
+    width: 50px;
+      
+}
+.imgEducation2{
+    height: 50px;
+    width: 50px;
+}
+
+.titleExpreince{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    border-style: dotted;
+    align-items: center;
+    background-color: antiquewhite;
+    
+}
+.imgExpreince1{
+    height: 50px;
+    width: 50px;
+       
+}
+.imgExpreince2{
+    height: 50px;
+    width: 50px;
+}
+.titleSkill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    border-style: dotted;
+    align-items: center;
+    background-color: antiquewhite;
+    
+}
+.imgskill1{
+    height: 50px;
+    width: 50px;
+       
+}
+.imgskill2{
+    height: 50px;
+    width: 50px;
+}
+.logoskill{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    margin: 20px;
+          
+}
+
+.photoshop{
+    margin-right: 1%;
+    width: 12%;
+ 
+}
+.aftereffect{
+    margin-right: 1%;
+    width: 12%;
+ 
+}
+.premiere{
+    margin-right: 1%;
+    width: 12%;
+ 
+}
+.final-cut{
+    margin-right: 1%;
+    width: 12%;
+ 
+}
+.html{
+    margin-right: 1%;
+    width: 12%;
+ 
+}
+.css{
+    margin-right: 1%;
+    width: 12%;
+ 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMe {
+        
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+             
+     }
+
+    .myphoto {
+        height: 40%;
+        width: 40%;   
+        margin: 8% 2%;
+        padding: 1%;
+                     
+        }
+    .introduceAboutMe {
+
+        padding: 1%;
+        font-size: 100%;
+        margin: 3% 1%;
+        background-color:antiquewhite;
+        border-style: dotted;
+       
+    }
+    .head-aboutme{
+        text-align:center;
+    }
+    .aboutEducationAndExpreince{
+        padding-top: 0%;    
+        width: 100%;
+                     
+    }
+
+}
+@media screen and (max-width:767px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMe {
+        
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+                          
+    }
+
+    .myphoto {
+        height: 50%;
+        width: 50%;   
+        margin: 5% 25%;
+        padding: 1%;
+                     
+        }
+    .introduceAboutMe {
+
+        padding: 1%;
+        font-size: 100%;
+        margin: 3% 1%;
+        background-color:antiquewhite;
+        border-style: dotted;
+       
+    }
+    .head-aboutme{
+        text-align:center;
+    }
+    .aboutEducationAndExpreince{
+        padding-top: 0%;   
+        width: 100%;
+                     
+    }
+}
