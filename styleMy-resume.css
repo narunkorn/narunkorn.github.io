@@ -7,6 +7,9 @@
     src: url(./Itim-Regular.ttf)
 }
 
+h4{
+    color: #086170;
+}
 body {
     margin: 0;
     background-color: #84A98C;
