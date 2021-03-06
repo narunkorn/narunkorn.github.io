@@ -131,37 +131,32 @@ body {
 
 .photoshop{
     margin-right: 1%;
-    max-width: 12%;
-    max-height: 100em;
+    width: 12%;
+    
  
 }
 .aftereffect{
     margin-right: 1%;
-    max-width: 12%;
-    max-height: 100em;
+    width: 12%;
 }
 .premiere{
     margin-right: 1%;
-    max-width: 12%;
-    max-height: 100em;
+    width: 12%;
  
 }
 .final-cut{
     margin-right: 1%;
-    max-width: 12%;
-    max-height: 100em;
+    width: 12%;
  
 }
 .html{
     margin-right: 1%;
-    max-width: 12%;
-    max-height: 100em;
+    width: 12%;
  
 }
 .css{
     margin-right: 1%;
-    max-width: 12%;
-    max-height: 100em;
+    width: 12%;
  
 }
 
@@ -202,6 +197,18 @@ body {
         width: 100%;
                      
     }
+    .photoshop{
+        margin-right: 1%;
+        width: 12%;
+        max-height: 100em;
+        
+     
+    }
+    .aftereffect{
+        margin-right: 1%;
+        width: 12%;
+        max-height: 100em;
+    }
 
 }
 @media screen and (max-width:767px){
@@ -241,5 +248,17 @@ body {
         width: 100%;
         padding : 5%
                      
+    }
+    .photoshop{
+        margin-right: 1%;
+        width: 12%;
+        max-height: 100em;
+        
+     
+    }
+    .aftereffect{
+        margin-right: 1%;
+        width: 12%;
+        max-height: 100em;
     }
 }
