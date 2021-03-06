@@ -29,7 +29,7 @@ body {
     background-color: #086170;
     width: 40%;
     border-style: dashed;
-          
+     max-height: 100%;    
 }
 
 .myphoto {
@@ -48,7 +48,7 @@ body {
 }
 .introduceAboutMe {
 
-    padding: 1%;
+    padding: 2%;
     font-size: 120%;
     margin: 5%;
     background-color:antiquewhite;
@@ -57,8 +57,8 @@ body {
 }
 
 .aboutEducationAndExpreince{
-    padding-left: 1% ;
-    padding-right: 1%;
+    padding-left: 2% ;
+    padding-right: 2%;
     padding-top: 1%;
     display: flex;
     flex-direction: column;
@@ -131,32 +131,37 @@ body {
 
 .photoshop{
     margin-right: 1%;
-    width: 12%;
+    max-width: 12%;
+    max-height: 100%;
  
 }
 .aftereffect{
     margin-right: 1%;
-    width: 12%;
- 
+    max-width: 12%;
+    max-height: 100%;
 }
 .premiere{
     margin-right: 1%;
-    width: 12%;
+    max-width: 12%;
+    max-height: 100%;
  
 }
 .final-cut{
     margin-right: 1%;
-    width: 12%;
+    max-width: 12%;
+    max-height: 100%;
  
 }
 .html{
     margin-right: 1%;
-    width: 12%;
+    max-width: 12%;
+    max-height: 100%;
  
 }
 .css{
     margin-right: 1%;
-    width: 12%;
+    max-width: 12%;
+    max-height: 100%;
  
 }
 
@@ -182,7 +187,7 @@ body {
         }
     .introduceAboutMe {
 
-        padding: 1%;
+        padding: 5%;
         font-size: 100%;
         margin: 3% 1%;
         background-color:antiquewhite;
@@ -209,7 +214,7 @@ body {
         display: flex;
         flex-direction:column;
         width: 100%;
-                          
+        padding: 5%;                 
     }
 
     .myphoto {
@@ -221,7 +226,7 @@ body {
         }
     .introduceAboutMe {
 
-        padding: 1%;
+        padding: 5%;
         font-size: 100%;
         margin: 3% 1%;
         background-color:antiquewhite;
@@ -234,6 +239,7 @@ body {
     .aboutEducationAndExpreince{
         padding-top: 0%;   
         width: 100%;
+        padding : 5%
                      
     }
 }
