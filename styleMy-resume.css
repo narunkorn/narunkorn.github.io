@@ -200,14 +200,14 @@ body {
     .photoshop{
         margin-right: 1%;
         width: 12%;
-        max-height: 100em;
+        
         
      
     }
     .aftereffect{
         margin-right: 1%;
         width: 12%;
-        max-height: 100em;
+       
     }
 
 }
@@ -253,13 +253,14 @@ body {
     .photoshop{
         margin-right: 1%;
         width: 100%;
-        max-height: 100em;
+       
+        
         
      
     }
     .aftereffect{
         margin-right: 1%;
         width: 100%;
-        max-height: 100em;
+        
     }
 }
