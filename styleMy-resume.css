@@ -211,6 +211,7 @@ body {
     }
 
 }
+/* mobile */
 @media screen and (max-width:767px){
     .container{
         display: flex;
@@ -251,14 +252,14 @@ body {
     }
     .photoshop{
         margin-right: 1%;
-        width: 12%;
+        width: 100%;
         max-height: 100em;
         
      
     }
     .aftereffect{
         margin-right: 1%;
-        width: 12%;
+        width: 100%;
         max-height: 100em;
     }
 }
