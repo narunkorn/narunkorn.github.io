@@ -257,14 +257,8 @@ body {
         padding : 5%
                      
     }
-    .logoskill img {
-        height: 60px;
-        width: 60px;
-        padding-left: 5px;
-        display: flex;
-        flex-direction: wrap;
-        justify-content:space-around ;
-    }
+    
+    
     /* .photoshop{
         margin-right: 1%;
         width: 12%;
