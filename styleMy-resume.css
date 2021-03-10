@@ -122,9 +122,9 @@ body {
     width: 50px;
 }
 .logoskill{
-    display:-webkit-flex;
+    display:flex;
     flex-wrap:wrap ;
-    justify-content:space-around ;
+    justify-content:space-evenly ;
     margin: 20px;
           
 }
