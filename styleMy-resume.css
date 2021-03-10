@@ -24,12 +24,12 @@ body {
 }
 
 .aboutMe {
-      display: flex;
+    display: flex;
     flex-direction:column;
     background-color: #086170;
     width: 40%;
     border-style: dashed;
-     max-height: 100em;    
+    
 }
 
 .myphoto {
