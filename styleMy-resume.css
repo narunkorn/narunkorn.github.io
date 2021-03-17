@@ -136,36 +136,7 @@ body {
     
 }
 
-/* .photoshop{
-    margin-right: 1%;
-    width: 12%;
-    
- 
-}
-.aftereffect{
-    margin-right: 1%;
-    width: 12%;
-}
-.premiere{
-    margin-right: 1%;
-    width: 12%;
- 
-}
-.final-cut{
-    margin-right: 1%;
-    width: 12%;
- 
-}
-.html{
-    margin-right: 1%;
-    width: 12%;
- 
-}
-.css{
-    margin-right: 1%;
-    width: 12%;
- 
-} */
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .container{
@@ -204,18 +175,7 @@ body {
         width: 100%;
                      
     }
-    /* .photoshop{
-        margin-right: 1%;
-        width: 12%;
-        
-        
-     
-    }
-    .aftereffect{
-        margin-right: 1%;
-        width: 12%;
-       
-    } */
+    
 
 }
 /* mobile */
@@ -261,21 +221,8 @@ body {
         display:flex;
         flex-direction:row ;
         justify-content:start ;
-    
-    
-    /* .photoshop{
-        margin-right: 1%;
-        width: 12%;
-        
-       
-        
-        
-     
     }
-    .aftereffect{
-        margin-right: 1%;
-        width: 12%;
-        
-        
-    } */
+    
+    
+    
 }
