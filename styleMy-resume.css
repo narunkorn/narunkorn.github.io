@@ -34,9 +34,9 @@ body {
 
 .myphoto {
     height: 450px;
-    width: 450px;   
+    width: 370px;   
     border-radius: 30%;
-    margin: 5%;
+    margin: 8% ;
     padding: 1%;
     border-style: dotted;
     background-color:antiquewhite;
