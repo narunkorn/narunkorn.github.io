@@ -29,17 +29,20 @@ body {
     background-color: #086170;
     width: 40%;
     border-style: dashed;
+   
     
 }
 
 .myphoto {
     height: 370px;
-    width: 370px;   
+    max-width: 370px;   
     border-radius: 30%;
     margin: 10% ;
     padding: 1%;
     border-style: dotted;
     background-color:antiquewhite;
+   
+   
     
 }
 
